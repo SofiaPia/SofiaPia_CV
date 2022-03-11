@@ -1,0 +1,140 @@
+body{
+    background-color: #ebeced;
+    font-family: 'Roboto', sans-serif;
+}
+
+#name{
+    margin: 0 10px 0 20px;
+}
+
+#message{
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 20px 20px 0 20px;
+  margin: 0;
+}
+
+p,
+h6{
+  font-size: 0.95rem;
+}
+
+h5{
+  font-size: 1rem;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #65A3CB;
+  font-weight: 900;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+li{
+  font-size: 0.90rem;
+}
+
+.effects{
+    background-color: #fff;
+    margin: 20px 0;
+    box-shadow: 1px 1px 8px 0px #b0acac;
+    border-radius: 2px;
+}
+
+.card-title{
+    margin: 10px 0;
+    padding: 16px;
+}
+
+.icon{
+    color: #65A3CB;
+    margin: 0 16px 0 0;
+    align-items: baseline;
+}
+
+.icon-black{
+  font-size: 30px;
+}
+
+.social{
+  height: 21px;
+  float: left;
+}
+
+.social:hover{
+  color: #65A3CB;
+}
+
+
+/* Containers */
+
+.container-skills{
+  padding: 0;
+}
+
+.hobbies{
+  margin-bottom: 20px;
+}
+
+.card-subtitles{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.card-body{
+  padding: 20px;
+}
+
+/* SKILLBAR */
+
+#languages{
+  margin-bottom: 25px;
+}
+
+.skillbar {
+  position:relative;
+  display:block;
+  margin-bottom:15px;
+  width:100%;
+  background:#eee;
+  height: 1rem;
+  border-radius:3px;
+  transition:0.4s linear;
+  transition-property:width, background-color;
+}
+
+.skillbar-bar {
+  height: 1rem;
+  width:0px;
+  background:#65A3CB;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+}
+
+  /* BUTTON */
+
+  .btn{
+    background-color: #65A3CB;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .btn:hover{
+    background-color: #b0acac;
+    border-color: #b0acac;
+    color: #fff;
+  }
+
+
