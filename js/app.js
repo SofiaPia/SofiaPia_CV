@@ -1,6 +1,6 @@
 /** TYPEWRITER EFFECT **/
 
-var messageArray = ["Front-End Developer"];
+var messageArray = ["Sofia Pia"];
 
 var textPosition = 0;
 
